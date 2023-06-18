@@ -11,6 +11,8 @@
 		7DA5DF762A3EE97C0006D248 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5DF752A3EE97C0006D248 /* ContentView.swift */; };
 		7DA5DF782A3EE9810006D248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DA5DF772A3EE9810006D248 /* Assets.xcassets */; };
 		7DA5DF7B2A3EE9810006D248 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DA5DF7A2A3EE9810006D248 /* Preview Assets.xcassets */; };
+		7DA5DF822A3EE9A70006D248 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5DF812A3EE9A70006D248 /* ContentViewModel.swift */; };
+		7DA5DF842A3EEC170006D248 /* ResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5DF832A3EEC170006D248 /* ResultModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		7DA5DF752A3EE97C0006D248 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7DA5DF772A3EE9810006D248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DA5DF7A2A3EE9810006D248 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7DA5DF812A3EE9A70006D248 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		7DA5DF832A3EEC170006D248 /* ResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				7DA5DF732A3EE97C0006D248 /* SwiftuiMapkitApp.swift */,
 				7DA5DF752A3EE97C0006D248 /* ContentView.swift */,
+				7DA5DF812A3EE9A70006D248 /* ContentViewModel.swift */,
+				7DA5DF832A3EEC170006D248 /* ResultModel.swift */,
 				7DA5DF772A3EE9810006D248 /* Assets.xcassets */,
 				7DA5DF792A3EE9810006D248 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DA5DF842A3EEC170006D248 /* ResultModel.swift in Sources */,
 				7DA5DF762A3EE97C0006D248 /* ContentView.swift in Sources */,
 				7DA5DF742A3EE97C0006D248 /* SwiftuiMapkitApp.swift in Sources */,
+				7DA5DF822A3EE9A70006D248 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +278,7 @@
 				DEVELOPMENT_TEAM = 72LYX5328F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "хотим использовать локацию ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +308,7 @@
 				DEVELOPMENT_TEAM = 72LYX5328F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "хотим использовать локацию ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
